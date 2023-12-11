@@ -18,10 +18,16 @@ class Program
             case "3":
                 Console.WriteLine(Day3.Main());
                 break;
+            case "4":
+                Console.WriteLine(Day4.Main());
+                break;
+            case "5":
+                Console.WriteLine(new Day5().Main());
+                break;
             default:
                 Console.WriteLine("Wrong input");
                 break;
         }
-        Console.ReadKey();
+        Console.Read();
     }
 }
